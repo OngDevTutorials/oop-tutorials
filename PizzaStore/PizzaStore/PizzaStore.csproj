@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\Dough.cs" />
+    <Compile Remove="Common\Topping.cs" />
+    <Compile Remove="Pizzas\CheesePizza.cs" />
+    <Compile Remove="Pizzas\GreekPizza.cs" />
+    <Compile Remove="Pizzas\GreekPizza.cs" />
+  </ItemGroup>
+</Project>
