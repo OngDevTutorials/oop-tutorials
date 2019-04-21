@@ -31,7 +31,7 @@ namespace PizzaStore
             Console.WriteLine("Cutting " + name);
         }
 
-        public virtual void Box()
+        public void Box()
         {
             Console.WriteLine("Boxing " + name);
         }

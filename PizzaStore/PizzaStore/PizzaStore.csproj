@@ -8,8 +8,14 @@
   <ItemGroup>
     <Compile Remove="Common\Dough.cs" />
     <Compile Remove="Common\Topping.cs" />
-    <Compile Remove="Pizzas\CheesePizza.cs" />
-    <Compile Remove="Pizzas\GreekPizza.cs" />
-    <Compile Remove="Pizzas\GreekPizza.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Stores\" />
+    <Folder Include="Stores\Base\" />
+    <Folder Include="Pizzas\" />
+    <Folder Include="Pizzas\Base\" />
+    <Folder Include="Pizzas\HUEPizzas\" />
+    <Folder Include="Pizzas\DNPizzas\" />
+    <Folder Include="Pizzas\HCMPizzas\" />
   </ItemGroup>
 </Project>
