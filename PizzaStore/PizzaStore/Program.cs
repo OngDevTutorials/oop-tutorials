@@ -6,12 +6,16 @@ namespace PizzaStore
     {
         static void Main(string[] args)
         {
-            var huePizzaStore = new HUEPizzaStore();
-            huePizzaStore.OrderPizza("cheese");
-            var dnPizzaStore = new DNPizzaStore();
-            dnPizzaStore.OrderPizza("cheese");
-            var hcmPizzaStore = new HCMPizzaStore();
-            hcmPizzaStore.OrderPizza("cheese");
+            PizzaStore pizzaStore;
+
+            pizzaStore = new HUEPizzaStore();
+            pizzaStore.OrderPizza("cheese");
+
+            pizzaStore = new DNPizzaStore();
+            pizzaStore.OrderPizza("cheese");
+
+            pizzaStore = new HCMPizzaStore();
+            pizzaStore.OrderPizza("cheese");
         }
     }
 }
